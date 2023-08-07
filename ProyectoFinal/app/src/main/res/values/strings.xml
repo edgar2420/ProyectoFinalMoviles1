@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">BancoFinal</string>
+    <string name="email">Email</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarme">registrarme</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="_23fb5a19_c467_46a1_b86a_425133700cc3">23fb5a19-c467-46a1-b86a-425133700cc3</string>
+    <string name="_000000_00">000000.00</string>
+    <string name="imgfunc">imgFunc</string>
+    <string name="ingreso_por_aaaaaaaaaaaaa">Ingreso por aqui</string>
+    <string name="textview1">TextView</string>
+    <string name="ingreso_egreso">Ingreso-Egreso</string>
+    <string name="title_activity_user_sesin">UserSesinActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imgaddcuenta">imgaddCuenta</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="seleccione_una_cuenta">Seleccione una Cuenta:</string>
+    <string name="ingrese_el_monto">Ingrese el monto</string>
+    <string name="ingrese_el_detalle">Ingrese el detalle</string>
+    <string name="retirar">Retirar</string>
+    <string name="retirar_dinero">Retirar dinero</string>
+    <string name="ingresar_dinero">Ingresar Dinero</string>
+    <string name="c_dula_de_identidad">Cédula de Identidad</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="n_mero_de_cuenta">Número de cuenta</string>
+    <string name="registrar_beneficiario">Registrar Beneficiario</string>
+    <string name="c_dula_de_indentidad">Cédula de Indentidad</string>
+    <string name="c_dula_de_indentidad1">Cédula de Indentidad</string>
+    <string name="transferir">transferir</string>
+    <string name="monto">Monto</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="nombre_beneficiario">Nombre Beneficiario</string>
+    <string name="fecha_l_mite_yy_mm_dd">Fecha Límite YY-MM-DD</string>
+    <string name="generar_qr">GENERAR QR</string>
+    <string name="compartir">Compartir</string>
+    <string name="imgqrbase64">imgQRBase64</string>
+    <string name="registrar">registrar</string>
+    <string name="correo_electr_nico">Correo Electrónico</string>
+    <string name="fecha_de_nacimiento_yy_mm_dd">Fecha de Nacimiento YY/mm/dd</string>
+    <string name="a_pagar">A pagar:</string>
+    <string name="textview">TextView</string>
+    <string name="pagar">Pagar</string>
+
+</resources>

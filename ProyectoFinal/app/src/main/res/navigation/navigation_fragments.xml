@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_fragments"
+    app:startDestination="@id/accountsHomeFragment">
+    <fragment
+        android:id="@+id/accountsHomeFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.AccountsHomeFragment"
+        android:label="fragment_accounts_home"
+        tools:layout="@layout/fragment_accounts_home" >
+        <action
+            android:id="@+id/action_accountsHomeFragment_to_ingresoFragment"
+            app:destination="@id/ingresoFragment" />
+        <action
+            android:id="@+id/action_accountsHomeFragment_to_extractosFragment2"
+            app:destination="@id/extractosFragment" />
+        <action
+            android:id="@+id/action_accountsHomeFragment_to_registroBeneficiarioFragment"
+            app:destination="@id/registroBeneficiarioFragment" />
+        <action
+            android:id="@+id/action_accountsHomeFragment_to_retiroFragment"
+            app:destination="@id/retiroFragment" />
+        <action
+            android:id="@+id/action_accountsHomeFragment_to_cobroQRFragment"
+            app:destination="@id/cobroQRFragment" />
+        <action
+            android:id="@+id/action_accountsHomeFragment_to_visorImgQRFragment"
+            app:destination="@id/visorImgQRFragment" />
+        <action
+            android:id="@+id/action_accountsHomeFragment_to_pagoQRFragment"
+            app:destination="@id/pagoQRFragment" />
+        <action
+            android:id="@+id/action_accountsHomeFragment_to_transferenciaBeneficiarioFragment"
+            app:destination="@id/transferenciaBeneficiarioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cobroQRFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.CobroQRFragment"
+        android:label="fragment_cobro_q_r"
+        tools:layout="@layout/fragment_cobro_q_r" >
+        <action
+            android:id="@+id/action_cobroQRFragment_to_extractosFragment"
+            app:destination="@id/extractosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/extractosFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.ExtractosFragment"
+        android:label="fragment_extractos"
+        tools:layout="@layout/fragment_extractos" />
+    <fragment
+        android:id="@+id/ingresoFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.IngresoFragment"
+        android:label="fragment_ingreso"
+        tools:layout="@layout/fragment_ingreso" />
+    <fragment
+        android:id="@+id/lectorQRFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.LectorQRFragment"
+        android:label="fragment_lector_q_r"
+        tools:layout="@layout/fragment_lector_q_r" />
+    <fragment
+        android:id="@+id/pagoQRFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.PagoQRFragment"
+        android:label="fragment_pago_q_r"
+        tools:layout="@layout/fragment_pago_q_r" />
+    <fragment
+        android:id="@+id/registroBeneficiarioFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.RegistroBeneficiarioFragment"
+        android:label="fragment_registro_beneficiario"
+        tools:layout="@layout/fragment_registro_beneficiario" />
+    <fragment
+        android:id="@+id/retiroFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.RetiroFragment"
+        android:label="fragment_retiro"
+        tools:layout="@layout/fragment_retiro" >
+        <action
+            android:id="@+id/action_retiroFragment_to_extractosFragment"
+            app:destination="@id/extractosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transferenciaFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.TransferenciaFragment"
+        android:label="fragment_transferencia"
+        tools:layout="@layout/fragment_transferencia" />
+    <fragment
+        android:id="@+id/transferenciaBeneficiarioFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.TransferenciaBeneficiarioFragment"
+        android:label="fragment_transferencia_beneficiario"
+        tools:layout="@layout/fragment_transferencia_beneficiario" >
+        <action
+            android:id="@+id/action_transferenciaBeneficiarioFragment_to_transferenciaFragment"
+            app:destination="@id/transferenciaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/visorImgQRFragment"
+        android:name="com.example.ProyectoFinal.ui.activities.VisorImgQRFragment"
+        android:label="fragment_visor_img_q_r"
+        tools:layout="@layout/fragment_visor_img_q_r" />
+    <activity
+        android:id="@+id/userSesionActivity"
+        android:name="com.example.ProyectoFinal.ui.activities.UserSesionActivity"
+        android:label="activity_user_sesion"
+        tools:layout="@layout/activity_user_sesion" />
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/mainActivity">
+        <activity
+            android:id="@+id/mainActivity"
+            android:name="com.example.ProyectoFinal.ui.activities.MainActivity"
+            android:label="activity_main"
+            tools:layout="@layout/activity_main" />
+        <action
+            android:id="@+id/action_global_accountsHomeFragment"
+            app:destination="@id/accountsHomeFragment" />
+    </navigation>
+    <navigation android:id="@+id/navigation2"
+        app:startDestination="@id/registroUsuarioActivity">
+        <activity
+            android:id="@+id/registroUsuarioActivity"
+            android:name="com.example.ProyectoFinal.ui.activities.RegistroUsuarioActivity"
+            android:label="activity_registro_usuario"
+            tools:layout="@layout/activity_registro_usuario" />
+        <action
+            android:id="@+id/action_global_navigation"
+            app:destination="@id/navigation" />
+    </navigation>
+</navigation>
